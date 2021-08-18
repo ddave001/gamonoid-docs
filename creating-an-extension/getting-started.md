@@ -6,3 +6,5 @@ description: >-
 # Getting started
 
 ##Introduction
+
+By using Gamonoid, developers can create personalized extensions. This document will guide you on how to create a simple extension to list down your tasks.
