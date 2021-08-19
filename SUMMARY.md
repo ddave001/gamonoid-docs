@@ -7,3 +7,5 @@
 
 * [Getting started](creating-an-extension/getting-started.md)
 
+* [Creating a database migration](db-migration.md)
+
