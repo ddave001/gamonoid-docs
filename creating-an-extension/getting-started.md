@@ -145,4 +145,4 @@ echo "Welcome ".$user->username;
 
 Refresh gamonoid and you should see the **My tasks** extension in the menu.
 
-![](../.gitbook/images/gamonoidapp-tasks-extension.PNG)
+![](../images/gamonoidapp-tasks-extension.PNG)
