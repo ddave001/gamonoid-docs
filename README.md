@@ -1,5 +1,5 @@
 ---
-description: What is Gamonoid Framework
+description: Introduction to Gamonoid
 ---
 
 # Introduction
