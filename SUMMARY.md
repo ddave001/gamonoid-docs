@@ -9,3 +9,5 @@
 
 * [Creating a database migration](creating-an-extension/db-migration.md)
 
+* [Adding entries to the database](creating-an-extension/adding-entries.md)
+
