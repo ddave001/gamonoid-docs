@@ -86,9 +86,9 @@ define('APP_BASE_PATH', 'C:/xampp/htdocs/gamonoid/core/');
 Now you can update the database configurations:
 
 ```text
-define('APP_DB', 'icehrm');
-define('APP_USERNAME', 'icehrm_user');
-define('APP_PASSWORD', 'icehrm_pwd');
+define('APP_DB', 'gamonoid');
+define('APP_USERNAME', 'gamonoid_user');
+define('APP_PASSWORD', 'gamonoid_pwd');
 define('APP_HOST', 'localhost');
 ```
 
