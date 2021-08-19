@@ -3,9 +3,9 @@ description: How to install gamonoid framework
 ---
 
 # Installation
----
-description: This section covers all the steps needed to manually configure Gamonoid on your server.
----
+
+This section covers all the steps needed to manually configure Gamonoid on your server.
+
 
 ## Download and Extract Gamonoid Latest Release
 1. You can download Gamonoid from \([https://github.com/gamonoid/gamonoidapp](https://github.com/gamonoid/gamonoidapp)\).
@@ -30,15 +30,15 @@ Rename **config.sample.php** as **config.php** and start updating it.
 
 The **config.php** will look like this:
 ```text
-<?php 
+<?php
 ini_set('error_log', '_LOG_');
-define('APP_NAME', 'Ice Framework');
-define('FB_URL', 'Ice Framework');
-define('TWITTER_URL', 'Ice Framework');
+define('APP_NAME', 'Gamonoid');
+define('FB_URL', 'Gamonoid');
+define('TWITTER_URL', 'Gamonoid');
 define('CLIENT_NAME', '_CLIENT_');
 define('APP_BASE_PATH', '_APP_BASE_PATH_');
 define('CLIENT_BASE_PATH', '_CLIENT_BASE_PATH_');
-define('BASE_URL','_BASE_URL_');
+define('BASE_URL','_BASE_URL_web/');
 define('CLIENT_BASE_URL','_CLIENTBASE_URL_');
 define('APP_DB', '_APP_DB_');
 define('APP_USERNAME', '_APP_USERNAME_');
@@ -48,9 +48,6 @@ define('APP_CON_STR', 'mysqli://'.APP_USERNAME.':'.APP_PASSWORD.'@'.APP_HOST.'/'
 //file upload
 define('FILE_TYPES', 'jpg,png,jpeg');
 define('MAX_FILE_SIZE_KB', 10 * 1024);
-//Home Links
-define('HOME_LINK_ADMIN', CLIENT_BASE_URL."?g=admin&n=dashboard&m=admin_Admin");
-define('HOME_LINK_OTHERS', CLIENT_BASE_URL."?g=modules&n=dashboard&m=module_My_Account");
 ```
 Now start updating the file.
 
