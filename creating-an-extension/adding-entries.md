@@ -14,7 +14,7 @@ A model is required to communicate with the database.
 
 ***Gamonoid uses AdoDB as the ORM. But it provides an abstraction layer on top of AdoDB.***
 
-The `Task.php` file should be in `extensions/tasks/src/Tasks/Model
+The `Task.php` file should be in `extensions/tasks/src/Tasks/Model`
 
 ```text
 📦extensions
