@@ -3,7 +3,7 @@ description: >-
   This section covers the steps needed to create a simple extension.
 ---
 
-# Getting started
+# Creating your first extension
 
 ## Introduction
 
